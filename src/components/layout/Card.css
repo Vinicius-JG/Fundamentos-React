@@ -1,0 +1,23 @@
+.card{
+    background-color: #222;
+    margin: 10px;
+    padding: 0px;
+    width: 400px;
+    border-radius: 3px;
+    border: 2px solid #b33;
+}
+
+.card .title{
+    background-color: #b33;
+    margin: 0px;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+.card .content h2{
+    font-weight: normal;
+}
+
+.card .content p{
+    font-size: 1.2em;
+}
