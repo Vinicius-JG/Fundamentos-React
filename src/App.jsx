@@ -4,6 +4,9 @@ import First from './components/basics/First'
 import WithParameters from './components/basics/WithParameters'
 import Random from './components/basics/Random'
 import Card from './components/layout/Card'
+import ProductList from './components/repetition/ProductList'
+import Counter from './components/counter/Counter'
+import Mega from './components/mega/Mega'
 
 const app = () =>
     <div className='app'>
@@ -17,6 +20,15 @@ const app = () =>
             </Card>
             <Card title='#03 - Random number'>
                 <Random min={1} max={100} />
+            </Card>
+            <Card title='#04 - Product List'>
+                <ProductList></ProductList>
+            </Card>
+            <Card title='05# - Counter'>
+                <Counter></Counter>
+            </Card>
+            <Card title='06# - Mega'>
+                <Mega />
             </Card>
         </div>
     </div>
